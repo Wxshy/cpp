@@ -1,0 +1,29 @@
+﻿  Piece.cpp
+Board.obj : error LNK2019: unresolved external symbol SDL_GetMouseState referenced in function "public: void __cdecl Board::handleMouseButtonDown(struct SDL_MouseButtonEvent &,class BoardState *)" (?handleMouseButtonDown@Board@@QEAAXAEAUSDL_MouseButtonEvent@@PEAVBoardState@@@Z)
+Board.obj : error LNK2019: unresolved external symbol SDL_QueryTexture referenced in function "public: void __cdecl Board::renderDraggedPiece(void)" (?renderDraggedPiece@Board@@QEAAXXZ)
+Board.obj : error LNK2019: unresolved external symbol SDL_SetRenderDrawColor referenced in function "public: void __cdecl Board::renderBox(struct Box,struct SDL_Color)" (?renderBox@Board@@QEAAXUBox@@USDL_Color@@@Z)
+Window.obj : error LNK2001: unresolved external symbol SDL_SetRenderDrawColor
+Board.obj : error LNK2019: unresolved external symbol SDL_RenderFillRect referenced in function "public: void __cdecl Board::renderBox(struct Box,struct SDL_Color)" (?renderBox@Board@@QEAAXUBox@@USDL_Color@@@Z)
+Board.obj : error LNK2019: unresolved external symbol SDL_RenderCopy referenced in function "public: void __cdecl Board::renderDraggedPiece(void)" (?renderDraggedPiece@Board@@QEAAXXZ)
+Board.obj : error LNK2019: unresolved external symbol SDL_GetTicks referenced in function "public: void __cdecl Board::calculateBoardStates(void)" (?calculateBoardStates@Board@@QEAAXXZ)
+main.obj : error LNK2001: unresolved external symbol SDL_GetTicks
+main.obj : error LNK2019: unresolved external symbol SDL_Delay referenced in function main
+Piece.obj : error LNK2019: unresolved external symbol SDL_FreeSurface referenced in function "public: static void __cdecl Piece::loadImages(void)" (?loadImages@Piece@@SAXXZ)
+Piece.obj : error LNK2019: unresolved external symbol SDL_CreateTextureFromSurface referenced in function "public: static void __cdecl Piece::loadImages(void)" (?loadImages@Piece@@SAXXZ)
+Piece.obj : error LNK2019: unresolved external symbol SDL_DestroyTexture referenced in function "public: static void __cdecl Piece::destroyImages(void)" (?destroyImages@Piece@@SAXXZ)
+Piece.obj : error LNK2019: unresolved external symbol IMG_Load referenced in function "public: static void __cdecl Piece::loadImages(void)" (?loadImages@Piece@@SAXXZ)
+Window.obj : error LNK2019: unresolved external symbol SDL_GetError referenced in function "public: void __cdecl Window::init(char const *,int,int,bool)" (?init@Window@@QEAAXPEBDHH_N@Z)
+Window.obj : error LNK2019: unresolved external symbol SDL_GetCurrentDisplayMode referenced in function "public: void __cdecl Window::calculateInitialWindowDimensions(void)" (?calculateInitialWindowDimensions@Window@@QEAAXXZ)
+Window.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function "public: void __cdecl Window::init(char const *,int,int,bool)" (?init@Window@@QEAAXPEBDHH_N@Z)
+Window.obj : error LNK2019: unresolved external symbol SDL_SetWindowMinimumSize referenced in function "public: void __cdecl Window::init(char const *,int,int,bool)" (?init@Window@@QEAAXPEBDHH_N@Z)
+Window.obj : error LNK2019: unresolved external symbol SDL_DestroyWindow referenced in function "public: void __cdecl Window::clean(void)" (?clean@Window@@QEAAXXZ)
+Window.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function "public: void __cdecl Window::handleEvents(void)" (?handleEvents@Window@@QEAAXXZ)
+Window.obj : error LNK2019: unresolved external symbol SDL_CreateRenderer referenced in function "public: void __cdecl Window::init(char const *,int,int,bool)" (?init@Window@@QEAAXPEBDHH_N@Z)
+Window.obj : error LNK2019: unresolved external symbol SDL_SetRenderDrawBlendMode referenced in function "public: void __cdecl Window::init(char const *,int,int,bool)" (?init@Window@@QEAAXPEBDHH_N@Z)
+Window.obj : error LNK2019: unresolved external symbol SDL_RenderClear referenced in function "public: void __cdecl Window::render(void)" (?render@Window@@QEAAXXZ)
+Window.obj : error LNK2019: unresolved external symbol SDL_RenderPresent referenced in function "public: void __cdecl Window::render(void)" (?render@Window@@QEAAXXZ)
+Window.obj : error LNK2019: unresolved external symbol SDL_DestroyRenderer referenced in function "public: void __cdecl Window::clean(void)" (?clean@Window@@QEAAXXZ)
+Window.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function "public: void __cdecl Window::init(char const *,int,int,bool)" (?init@Window@@QEAAXPEBDHH_N@Z)
+Window.obj : error LNK2019: unresolved external symbol SDL_Quit referenced in function "public: void __cdecl Window::clean(void)" (?clean@Window@@QEAAXXZ)
+Window.obj : error LNK2019: unresolved external symbol IMG_Init referenced in function "public: void __cdecl Window::init(char const *,int,int,bool)" (?init@Window@@QEAAXPEBDHH_N@Z)
+C:\Users\User\source\repos\chess2\x64\Debug\chess2.exe : fatal error LNK1120: 25 unresolved externals

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "3c2102d0-083c-416c-a079-d0473b1cbec0": {
+      "ProjectGuid": "3c2102d0-083c-416c-a079-d0473b1cbec0",
+      "DisplayName": "SDL2-starter",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
